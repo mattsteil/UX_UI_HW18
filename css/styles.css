@@ -326,9 +326,22 @@ text-align: justify;
 display:flex;
 
 
+ }
 
 
-  }
+ .footerContainer {
+
+
+  display: flex;
+  margin-left: 16%;
+  margin-right: 16%;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+
 
 
 .footerNav {
