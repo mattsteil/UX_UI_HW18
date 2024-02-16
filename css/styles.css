@@ -116,20 +116,31 @@ align-items:center;
 justify-content:flex-start;
 padding:10px;
 
+}
+
+
+.navContainer {
+
+
+  display: flex;
+  margin-left: 16%;
+  margin-right: 16%;
+  align-items: center;
 
 }
 
+
 .navLogo {
-display:inline-block;
-width:5%;
-padding:1%;
-height:25px;
-text-align:center;
-background-image:url("../images/navLogo.png");
-background-position: center;
-background-size: contain;
-margin-left:30px;
-background-repeat: no-repeat;
+  display: flex;
+  width: 45px;
+  padding: 1%;
+  height: 45px;
+  text-align: center;
+  background-image: url(../images/navLogo.png);
+  background-position: center;
+  background-size: contain;
+  /* margin-left: 30px; */
+  background-repeat: no-repeat;
 
 
 }
@@ -139,12 +150,12 @@ background-repeat: no-repeat;
 
 .mainMenu {
 
-
-
-width:auto;
-display:inline-block;
-
-
+  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+  text-align: center;
+  align-items: center;
 }
 
 
